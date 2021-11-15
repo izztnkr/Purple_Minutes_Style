@@ -10,11 +10,43 @@
   rel="stylesheet" 
   integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
   crossorigin="anonymous">
+
+  {{!-- Add Google Fonts Here  --}}
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,500&display=swap" rel="stylesheet">
+  
   <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 
 <body>
-  
+
+  <h1 class="title">Purple Minutes Style</h1>
+    <div class="container">
+    <div class="row">
+      <div class=" screen col-md-6 col-md-offset-3">
+        <h2>Login</h2>
+        <form class="login">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Username</label>
+            <input type="text" class="form-control" id="username-input" placeholder="Username" />
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="password-input" placeholder="Password" />
+          </div>
+          <button type="submit" class="btn btn-default blog-btn">Login</button>
+        </form>
+        <br />
+
+        </form>
+        <br />
+        <div class="link col-lg-12">
+          <p class="log col-md-6 col-lg-6">Or sign up <a href="/signup.html"> &rarr; here</a></p>
+          <div id="alertprompts">
+          </div>
+        </div>
+      </div>
 
 </body>
 

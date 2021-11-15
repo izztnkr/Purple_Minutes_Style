@@ -1,5 +1,3 @@
-# Project2_Purple_Minutes_Style
-
 <h1 align="center">Model-View-Controller(MVC)</h1>
 
 <h2 align="center"> Purple Mintues Style</h2>
