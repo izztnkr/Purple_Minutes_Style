@@ -23,9 +23,11 @@
 
   <header>
     <nav>
-      <a>Home</a>
-      <a>Dashboard</a>
-      <a>Logout</a>
+      <a href="/">Home</a>
+      <a href="/dashboard">Dashboard</a>
+      <a href="/login">LogIn</a>
+      <a href="/signup">SignUp</a>
+      <a href="/logout">Logout</a>
 
     </nav>
   </header>
@@ -34,12 +36,15 @@
     {{{ body }}}
   </main>
 
+
+
+
   <footer class="text-muted">
     Optional Footer Message
   </footer>
-
-<script src="/javascript/signup.js"></script>
-
+{{#if loggedIn}}
+<script src="/javascript/logout.js"></script>
+{{/if}}
 </body>
 
 </html>

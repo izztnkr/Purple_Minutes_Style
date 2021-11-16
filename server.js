@@ -25,7 +25,9 @@ const session = require('express-session');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 const sess ={
     secret: 'it is not a secret',
-    cookie: {},
+    cookie: {
+        maxAge: 1000 * 60 * 60 * 24 //equals one day
+    },
     resave: false,
     saveUninitialized: true,
     store: new SequelizeStore({
