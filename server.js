@@ -16,7 +16,7 @@ const helpers = require('./utils/helpers');
 
 // add handlebars
 const exphbs = require('express-handlebars');
-const hbs = exphbs.create({ helpers });
+const hbs = exphbs.create({ });
 
 
 //set up Express.js session
