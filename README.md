@@ -1,39 +1,57 @@
-<h1 align="center">Model-View-Controller(MVC)</h1>
+# Project2_Purple_Minutes_Style
 
-<h2 align="center"> Purple Mintues Style</h2>
-  
+<h1 align="center">Model-View-Controller (MVC)  built with </h1>
 <p align="center">
-    <img src="https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white"/>
-    <img src="https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white">
-    <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" />
-    <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"  />
-    <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" />
-    <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"  />
-    <img src="https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white" />
-    <img src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white">
-    <img src="https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE"/>
+    <img src="https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white"/>  &nbsp;&nbsp;
+    <img src="https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white"> &nbsp;&nbsp;
+    <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white" /> &nbsp;&nbsp;
+    <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"  /> &nbsp;&nbsp;
+    <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" /> &nbsp;&nbsp;
+    <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"  /> &nbsp;&nbsp;
+    <img src="https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white" /> &nbsp;&nbsp;
+    <img src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white"> &nbsp;&nbsp;
+    <img src="https://img.shields.io/badge/Insomnia-black?style=for-the-badge&logo=insomnia&logoColor=5849BE"/> &nbsp;&nbsp;
     
 </p>
 
   ## Table of Contents
 
   * [Description](#description)
+  * [Preview](#preview)
+  * [Technical_Criteria](#technical_criteria)
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Contributing](#contributing)
   * [Tests](#tests)
-  * [GitHub](#GitHub)
+  * [Contributions](#contributions)
   * [License](#license)
 
   ## Description
   
-  The purpose of this project is to build a full stack application following the Model-View-Controller architecture. 
+This project is in part to fulfill the technical requirement of the UT Coding Bootcamp to build a full stack application following the Model-View-Controller architecture. Additionally it will fulfill the needs of client Purple Minutes Style, as a database and space to upload, document, sort and keep track of their styling work per production.  Productions being projects in the realm of styling characters and clients for short films, tv/web episodes, editorial shoots, and theater. Where the data needing housing are links to published commercials, short films, larger films, photos of behind the scenes, images of wardrobe design plans, and raw film frames of the overall production with their product (the wardrobe styling of characters and clients) being showcased. 
 
-  WE NEED TO ADD DESCRIPTION HERE
+  
+ ## Preview
+  
+![image](https://media0.giphy.com/media/lNY0a9aJgFcCaDn1nw/giphy.gif?cid=ecf05e47psgv7yleo14azmxgq6al2ofi7e84ze6604v6z3qo&rid=giphy.gif&ct=g)
 
 
+   ## Technical_Criteria 
+- Use Node.js and Express.js to create a RESTful API.
+- Use Handlebars.js as the templating engine.
+- Use MySQL and the Sequelize ORM for the database.
+- Have both GET and POST routes for retrieving and adding new data.
+- Be deployed using Heroku (with data).
+- Use at least one new library, package, or technology that we haven’t discussed.
+- Have a polished UI.
+- Be responsive.
+- Be interactive (i.e., accept and respond to user input).
+- Have a folder structure that meets the MVC paradigm.
+- Include authentication (express-session and cookies).
+- Protect API keys and sensitive information with environment variables.
+- Have a clean repository that meets quality coding standards (file structure, naming conventions, follows best practices for class/id naming conventions, indentation, quality comments, etc.).
+- Have a quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
 
-  ## Installation
+ ## Installation
 
   Use the following url to clone the repository:
 
@@ -74,11 +92,8 @@
 
  
 
-  ## Contributing
-  
-  Contributions are welcome!
-  
 
+ 
   ## Tests
 
 
@@ -88,9 +103,9 @@
 
   
 
-  ## GitHub
+  ## Contributions
 
-  Built with love and care by
+  Built for Purple Minutes Style with love and care by
 
   :octocat: [Angela Loftus](https://www.github.com/AngelaLoftus)
 
@@ -98,9 +113,12 @@
 
   :octocat: [Dakota Donaldson](https://github.com/Dakota3214)
 
-  :octocat: [Izzy Ramirez](https://github.com/izzytnkr)
+  :octocat: [Izzy Ramirez](https://github.com/izztnkr)
 
-  :octocat: [Eduardo Ramirez](https://github.com)
+  :octocat: [Eduardo Ramirez](https://github.com/EduardoRam7)
+  
+  
+  Contributions are welcome!
   
 
   ## License
