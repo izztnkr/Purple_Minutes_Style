@@ -1,0 +1,52 @@
+
+/* Overrides original css style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    color: mediumpurple;
+    
+}
+nav img {
+    border-radius: 50%;
+    max-width: 50%;
+    height: auto;
+}
+
+/* Navigation */
+nav {
+    border-bottom: 3px solid mediumpurple;
+    font-size: 32px;
+    padding: 10px;
+}
+
+nav a {
+    padding-left: 40px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: mediumpurple;
+}
+
+a:hover {
+    text-decoration: none;
+    color: mediumpurple;
+}
+
+/* Logout Button */
+/* .logout {
+    
+} */
+
+button {
+    background-color: mediumpurple;
+    color: black;
+    
+}
+
+button:focus {
+    outline: none;
+}
