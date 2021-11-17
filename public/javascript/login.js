@@ -17,9 +17,10 @@ async function loginEvent(event){
         if(response.ok){
             document.location.replace('/dashboard');
         }else{
-            alert('Somthing is not working! :( ');
+            alert('Something is not working! :( ');
         }
     }
 }
 
 document.querySelector('.login-form').addEventListener('submit', loginEvent);
+// document.querySelectorAll("").addEventListener('submit', loginEvent);
