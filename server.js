@@ -16,7 +16,7 @@ const helpers = require('./utils/helpers');
 
 // add handlebars
 const exphbs = require('express-handlebars');
-const hbs = exphbs.create({ helpers });
+const hbs = exphbs.create({ });
 
 
 //set up Express.js session
@@ -25,7 +25,9 @@ const session = require('express-session');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 const sess ={
     secret: 'it is not a secret',
-    cookie: {},
+    cookie: {
+        maxAge: 1000 * 60 * 60 * 24 //equals one day
+    },
     resave: false,
     saveUninitialized: true,
     store: new SequelizeStore({
