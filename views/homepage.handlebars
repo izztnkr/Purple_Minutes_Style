@@ -1,21 +1,36 @@
-{{!-- {{!-- 
- jumbotron idea #1 --}}
-<div class="jumbotron jumbotron-fluid">
-  <video id="video-background" preload muted autoplay loop>
-    <source src="http://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
-    <source src="http://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
-  </video>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/stylesheets/homestyle.css">
 
-  
+  <body>
+	{{!-- <nav class="navbar navbar-dark fixed-top">
+		<!-- Optional -->
 
-  <p class="lead">Motion is power...</p>
-    <hr class="my-4">
-    <p></p>
-    <a class="btn btn-primary btn" href="/login" role="button">Click here to learn more</a>
-</div>
+		<a class="navbar-brand mx-auto" href="#"><img src="" alt=""></a>
+	</nav> --}}
+   {{!-- <nav class="navbar">
+      <a href="/">Home</a>
+      <a href="/dashboard">Dashboard</a>
+      <a href="/login">LogIn</a>
+      <a href="/signup">SignUp</a>
+      <a href="/logout">Logout</a>
+    </nav> --}}
+	<div class="video-background">
+		<div class="video-wrap">
+			<div id="video">
+				<video id="bgvid" autoplay loop muted playsinline>
+					<source src="https://backgroundoptions.s3.us-east-2.amazonaws.com/mountainHD.mp4" type="video/mp4">
+					
+				</video>
+			</div>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script src="/javascript/home.js"></script> --}}
+		</div>
+	</div>
 
+	<div class="caption text-center">
+		<h1>Hello!</h1>
+		<h3>Wanna learn more about us?</h3>
+		<a class="btn btn-outline-light btn-lg" href="/login"> GET STARTED</a>
+
+	</div>
+
+  </body>
