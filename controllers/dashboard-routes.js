@@ -6,7 +6,7 @@ router.get("/", (req, res) => {
 });
 
 // get all content for the dashboard
-router.get("/production/film", (req, res) => {
+router.get("/dashboard/film", (req, res) => {
   Production.findOne({
     where: {
       id: req.params.id,
@@ -39,7 +39,7 @@ router.get("/production/film", (req, res) => {
     });
 });
 
-router.get("/production/music", (req, res) => {
+router.get("/dashboard/music", (req, res) => {
   Production.findOne({
     where: {
       id: req.params.id,
@@ -72,7 +72,7 @@ router.get("/production/music", (req, res) => {
     });
 });
 
-router.get("/production/episodes", (req, res) => {
+router.get("/dashboard/episodes", (req, res) => {
   Production.findOne({
     where: {
       id: req.params.id,
@@ -105,7 +105,7 @@ router.get("/production/episodes", (req, res) => {
     });
 });
 
-router.get("/production/editorial", (req, res) => {
+router.get("/dashboard/editorial", (req, res) => {
   Production.findOne({
     where: {
       id: req.params.id,
