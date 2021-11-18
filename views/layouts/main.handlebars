@@ -17,18 +17,22 @@
    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,500&display=swap" rel="stylesheet">
   
   <link rel="stylesheet" href="/stylesheets/style.css">
+  
 </head>
 
 <body>
 
   <header>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/dashboard">Dashboard</a>
-      <a href="/login">LogIn</a>
-      <a href="/signup">SignUp</a>
-      <a href="/logout">Logout</a>
-
+    <nav class="navbar navbar-light" style="background-color: #e6f4fd">
+      <a class="navbar-brand" href="/">Home</a>
+      
+      <a class="navbar-brand" href="/signup">SignUp</a>
+      {{#if loggedIn}}
+      <a class="navbar-brand" href="/dashboard">Dashboard</a>
+      <a class="navbar-brand" href="/logout">Logout</a>
+      {{else}}
+      <a class="navbar-brand" href="/login">LogIn</a>
+      {{/if}}
     </nav>
   </header>
 
@@ -38,9 +42,8 @@
 
 
 
-
-  <footer class="text-muted">
-    Optional Footer Message
+  <footer class="text-muted text-center" style="background-color: #e6f4fd">
+      Built with love and care for Purple Minutes Style
   </footer>
   
 {{#if loggedIn}}

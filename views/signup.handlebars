@@ -1,65 +1,61 @@
-{{!-- <form class="signup-form">
-  <div>
-    <label for="username-signup">username:</label>
-    <input type="text" id="username-signup" />
-  </div>
-  <div>
-    <label for="email-signup">email:</label>
-    <input type="text" id="email-signup" />
-  </div>
-  <div>
-    <label for="password-signup">password:</label>
-    <input type="password" id="password-signup" />
-  </div>
-  <div>
-    <button type="submit">signup</button>
-  </div>
-</form>
-<div>
-  <a href="/login">log in instead</a>
-</div>
-
-<script src="/javascript/signup.js"></script> --}}
-
-{{!-- ****WE HAVE TWO CHOICES TO CHOSE FROM*** --}}
 
 
-<h1>SignUp</h1>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/stylesheets/loginstyle.css">
 
+    <section class="Form my-4 mx-5">
+        <div class="container">
+            <div class="row no-gutters">
+                <div class="col-lg-5">
+                    <img src="/assets/oli-bekh-G9Ncd2F5TPY-unsplash.jpg" class="img-fluid" alt="emptychair">
+                    
+                </div>
+                <div class="col-lg-7 px-5 pt-5">
+                    <h1 class="font-weight-bold py-3">Nice to see you!</h1>
+                    <h4> Let's Get You Set Up</h4>
+                    <form class="signup-form">
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                                <input id= "username-signup" type="username" placeholder="Enter a username" class="form-control my-3 p-4">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                                <input id="email-signup" type="email" placeholder="abc@email.com" class="form-control my-3 p-4">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                                <input id="password-signup" type="password" placeholder="password" class="form-control my-3 p-4" autocomplete="on">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                                <button type="button" class="btn1 mt-3 mb-5">Register</button>
+                            </div>
+                        </div>
+                        <p>Already have an account?<a href="/login">Login here</a></p>
+                    </form>
+                </div>
 
-<a type="button" class="btn  btn-lg btn" href="/">Home</a>
-<a type="button" class="btn btn-lg btn" href="/login">Login</a>
-<a type="button" class="btn btn-lg btn" href="/signup">SignUp</a>
-<a type="button" class="btn  btn-lg btn" href="/dashboard">Dashboard</a>
-
-
-<div class="container my-5" id = "signup-container">
-        <div class="row justify-content-center">
-          <div class="col-4">
-            <h3>Sign-Up</h3>
-            <br>
-            <form id="signup-form">
-              <div class="form-group">
-                  <label for="username-signup">Username</label>
-                  <input type="text" class="form-control" id="username-signup" required>
-              </div>
-              <div class="form-group">
-                <label for="email-signup">Email</label>
-                <input type="text" class="form-control" id="email-signup" required>
-              </div>
-              <div class="form-group">
-                <label for="password-signup">Password</label>
-                <input type="password" class="form-control" id="password-signup" required>
-              </div>
-              <div class="form-group">
-                <button type="submit" class="btn btn-primary">Sign Up</button>
-                <br>
-                <br>
-                <a class="nav-item nav-link" href="/login">  Have an account ? => Log In</a>
-              </div>
-            </form>
-          </div>
+            </div>
         </div>
-      </div>
+    </section>
 
-<script src="/javascript/signup.js"></script>
+
+    
+    <script src="/javascript/signup.js"></script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
