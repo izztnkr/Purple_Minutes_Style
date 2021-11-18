@@ -1,6 +1,8 @@
 async function loginEvent(event){
     event.preventDefault();
 
+    console.log('login.js is linked!');
+
     const username = document.querySelector('#username-login').value.trim();
     const password = document.querySelector('#password-login').value.trim();
 
@@ -17,9 +19,10 @@ async function loginEvent(event){
         if(response.ok){
             document.location.replace('/dashboard');
         }else{
-            alert('Somthing is not working! :( ');
+            alert('Something is not working! :( ');
         }
     }
 }
 
 document.querySelector('.login-form').addEventListener('submit', loginEvent);
+// document.querySelectorAll("").addEventListener('submit', loginEvent);
