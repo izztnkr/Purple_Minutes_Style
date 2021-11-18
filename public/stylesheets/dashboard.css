@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: white;
+    background: rgb(234, 241, 241);
     color: mediumpurple;
     
 }
@@ -11,6 +11,7 @@
 nav img {
     border-radius: 50%;
     max-width: 50%;
+    
     
 }
 
@@ -22,6 +23,7 @@ nav {
 
 nav a {
     padding-left: 40px;
+
     
 }
 
@@ -52,10 +54,11 @@ button:focus {
 
 /* Main image plus description */
 .main-image {
-    /* border-radius: 50%; */
-    max-width: 50%;
-    border: 6px solid black;
+    height: 400px;
+    /* border: 6px solid black; */
     text-align: left;
+    justify-content: end;
+    padding-left: 500px;
 }
 
 section {
