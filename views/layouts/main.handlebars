@@ -25,10 +25,14 @@
   <header>
     <nav class="navbar navbar-light" style="background-color: #e6f4fd">
       <a class="navbar-brand" href="/">Home</a>
-      <a class="navbar-brand" href="/dashboard">Dashboard</a>
-      <a class="navbar-brand" href="/login">LogIn</a>
+      
       <a class="navbar-brand" href="/signup">SignUp</a>
+      {{#if loggedIn}}
+      <a class="navbar-brand" href="/dashboard">Dashboard</a>
       <a class="navbar-brand" href="/logout">Logout</a>
+      {{else}}
+      <a class="navbar-brand" href="/login">LogIn</a>
+      {{/if}}
     </nav>
   </header>
 
