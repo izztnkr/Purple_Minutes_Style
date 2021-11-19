@@ -7,7 +7,7 @@ async function loginEvent(event){
     const password = document.querySelector('#password-login').value.trim();
 
     if (username && password){
-        const response = await fetch('/api/users/login', {
+        const response = await fetch("/api/users/login", {
             method: 'post',
             body: JSON.stringify({
                 username,
@@ -23,6 +23,6 @@ async function loginEvent(event){
         }
     }
 }
-
+console.log("button has beeen clicked!");
 document.querySelector('.login-form').addEventListener('submit', loginEvent);
 // document.querySelectorAll("").addEventListener('submit', loginEvent);

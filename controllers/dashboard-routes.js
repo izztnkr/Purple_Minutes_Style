@@ -9,7 +9,7 @@ router.get("/", (req, res) => {
 router.get("/dashboard/film", (req, res) => {
   Production.findOne({
     where: {
-      id: req.params.id,
+      production_type: req.params.id, //LEFT OFF HERE, MAYBE DIFF WHERE: TITLE
     },
     attributes: [
       "id",
@@ -94,7 +94,7 @@ router.get("/dashboard/episodes", (req, res) => {
 
       const production = dbProductionData.get({ plain: true });
 
-      res.render("episodes_music.handlebars", {
+      res.render("dash_music.handlebars", {
         production,
         // loggedIn: req.session.loggedIn,
       });
