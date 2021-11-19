@@ -1,10 +1,10 @@
 // const { response } = require("express");
 const description = document.getElementsByClassName("description");
 
-async function filmData(event) {
+async function musicData(event) {
   event.preventDefault();
 
-  const response = await fetch("/dashboard/film", {
+  const response = await fetch("/dashboard/music", {
     method: "POST",
     body: JSON.stringify({
       id,
@@ -63,4 +63,4 @@ async function filmData(event) {
 //   }
 // }
 console.log("event listener was CLICKED!");
-document.querySelector(".film").addEventListener("click", filmData);
+document.querySelector(".music").addEventListener("click", musicData);
