@@ -5,7 +5,7 @@ async function editorialData(event) {
   event.preventDefault();
 
   const response = await fetch("/dashboard/editorial", {
-    method: "POST",
+    method: "GET",
     body: JSON.stringify({
       id,
       production_name,

@@ -9,7 +9,7 @@ router.get("/", (req, res) => {
 router.get("/dashboard/film", (req, res) => {
   Production.findOne({
     where: {
-      id: req.params.id,
+      production_type: req.params.id, //LEFT OFF HERE, MAYBE DIFF WHERE: TITLE
     },
     attributes: [
       "id",

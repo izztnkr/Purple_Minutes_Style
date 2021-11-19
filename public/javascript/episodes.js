@@ -5,7 +5,7 @@ async function episodesData(event) {
   event.preventDefault();
 
   const response = await fetch("/dashboard/episodes", {
-    method: "POST",
+    method: "GET",
     body: JSON.stringify({
       id,
       production_name,
