@@ -94,7 +94,7 @@ router.get("/dashboard/episodes", (req, res) => {
 
       const production = dbProductionData.get({ plain: true });
 
-      res.render("episodes_music.handlebars", {
+      res.render("dash_music.handlebars", {
         production,
         // loggedIn: req.session.loggedIn,
       });
