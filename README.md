@@ -98,7 +98,7 @@ This project is in part to fulfill the technical requirement of the UT Coding Bo
 
 
   Check out the deployed application on 
-  [heroku](https://www.youtube.com)
+  [heroku](https://purpleminutesstyle.herokuapp.com/)
  
 
   
@@ -107,15 +107,15 @@ This project is in part to fulfill the technical requirement of the UT Coding Bo
 
   Built for Purple Minutes Style with love and care by
 
-  :octocat: [Angela Loftus](https://www.github.com/AngelaLoftus)
+  :octocat: [Angela Loftus](https://www.github.com/AngelaLoftus) production model, slideshow, back-end routes
 
-  :octocat: [Ben Kaan](https://www.github.com/benkaan001)
+  :octocat: [Ben Kaan](https://www.github.com/benkaan001) user model, log in pages
+ 
+  :octocat: [Dakota Donaldson](https://github.com/Dakota3214) handlebars templates and styling
 
-  :octocat: [Dakota Donaldson](https://github.com/Dakota3214)
+  :octocat: [Izzy Ramirez](https://github.com/izztnkr) back-end & front-end routes, client interaction, project management
 
-  :octocat: [Izzy Ramirez](https://github.com/izztnkr)
-
-  :octocat: [Eduardo Ramirez](https://github.com/EduardoRam7)
+  :octocat: [Eduardo Ramirez](https://github.com/EduardoRam7) axios implementation
   
   
   Contributions are welcome!

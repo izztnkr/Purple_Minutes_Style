@@ -1,0 +1,72 @@
+/* Overrides original css style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(234, 241, 241);
+    color: mediumpurple;
+    
+}
+
+nav img {
+    border-radius: 50%;
+    max-width: 50%;
+    
+    
+}
+
+/* Navigation */
+nav {
+    font-size: 30px;
+    padding: 10px;
+}
+
+nav a {
+    padding-left: 40px;
+
+    
+}
+
+a {
+    text-decoration: none;
+    color: mediumpurple;
+}
+
+a:hover {
+    text-decoration: none;
+    color: mediumpurple;
+}
+
+/* Logout Button */
+.logout {
+    text-align: right;
+}
+
+button {
+    background-color: mediumpurple;
+    color: black;
+    
+}
+
+button:focus {
+    outline: none;
+}
+
+/* Main image plus description */
+.main-image {
+    height: 400px;
+    /* border: 6px solid black; */
+    text-align: left;
+    justify-content: end;
+    padding-left: 500px;
+}
+
+section {
+    padding-top: 10%;
+}
+
+.description {
+    padding-left: 5%;
+}
+
+/* 5 realted images */
