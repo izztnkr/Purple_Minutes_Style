@@ -10,11 +10,7 @@ router.get("/", (req, res) => {
 router.get("/film", (req, res) => {
   Production.findOne({
     where: {
-<<<<<<< HEAD
       production_type: "film",
-=======
-      production_type: req.params.id, //LEFT OFF HERE, MAYBE DIFF WHERE: TITLE
->>>>>>> 74e23052a49e55565d80122f9b052492a3f0e9c9
     },
     attributes: [
       "id",
@@ -102,12 +98,8 @@ router.get("/episodes", (req, res) => {
 
       const production = dbProductionData.get({ plain: true });
 
-<<<<<<< HEAD
       res.render("dash_episodes", {
         layout: "dashboard",
-=======
-      res.render("dash_music.handlebars", {
->>>>>>> 74e23052a49e55565d80122f9b052492a3f0e9c9
         production,
         // loggedIn: req.session.loggedIn,
       });
