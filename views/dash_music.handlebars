@@ -1,73 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- bootstrap framework stylesheet link -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="/public/stylesheets/dashboard.css">
-    
-    <title>Purple Minute Style Dashboard</title>
-</head>
-<body>
-    <!-- <script nav="/views/dash-nav.handlebars" show="template"></script> -->
-    <!-- logo image -->
-    <nav class="d-flex flex-row justify-content-between align-items-center">
-        
-        <div class="logo col-sm-3">
-            
-            <img src="https://purple-minutes-styling.s3.us-east-2.amazonaws.com/LOGO.jpg"></img>
-            
+ <div class=" d-flex col-6-sm justify-content-end">
+            <img class="main-image" src="https://purple-minutes-styling.s3.us-east-2.amazonaws.com/Film/Film+Production/LooseEnds_MainImage.JPG">
         </div>
-
-        <!-- navigation links -->
-        <div class="nav d-flex flex-row col-sm-6">
-            
-            <a href="">Home</a>
-                
-            <a href="">Film</a>
-                
-            <a href="">Episodes</a>
-                
-            <a href="">Editorial</a>
-                
-            <a href="">Theater</a>
-                
-            <a href="">Add New Project</a>
-            
-        </div> 
-        <!-- Logout Button -->
-        <div class="logout col-sm-3">
-            <button>Log out</button>
-        </div>
-    </nav>
-
-    <!-- main image plus descriptions -->
-    <section class="d-flex flex-row">
-        <div class=" d-flex col-6-sm justify-content-end">
-            <img class="main-image" src="https://purple-minutes-styling.s3.us-east-2.amazonaws.com/Music/Music+Production/BTS_Main_Image.JPG">
-        </div>
-        <div class=" description d-flex flex-column col-6-sm">
-            <h2>
-                {{production_name}}
-            </h2>
-            <div>
-                Production Link: {{production_link}} 
-            </div>
-            <div>
-                Production Type: {{production_type}} 
-            </div>
-            <div>
-                Dates: {{production_dates}} 
-            </div>
-            <div>
-                Description: {{production_description}} 
-            </div>
-        </div>
-    </section> 
-
-    <!-- Related images -->
+          {{>productioncard }}
     <section>
         <div class="images d-flex flex-row justify-content-between">
             <img class="col-sm-2" src="https://purple-minutes-styling.s3.us-east-2.amazonaws.com/Music/Music+Production/BTS_IMG_3727.JPG"></img>
@@ -77,11 +11,3 @@
         </div>
     </section>
     
-    <!-- main image/description section -->
-<!-- bootstrap framework jquery links -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<script src="/public/javascript/music.js"></script>
-</body>
-</html>
