@@ -3,7 +3,7 @@ const description = document.getElementsByClassName("description");
 
 async function filmData(event) {
   event.preventDefault();
-
+  console.log("it worked!");
   const response = await fetch("/dashboard/film", {
     method: "GET",
     body: JSON.stringify({
@@ -63,4 +63,4 @@ async function filmData(event) {
 //   }
 // }
 console.log("event listener was CLICKED!");
-document.querySelector(".film").addEventListener("click", filmData);
+document.querySelector("#film").addEventListener("click", filmData);
