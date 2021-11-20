@@ -16,7 +16,7 @@ const productiondata = [
     production_name: "You Need Me to Betray",
     production_type: "Music",
     production_dates: "April 5, 2021",
-    production_link: "LINK TO HOSTED VIDEO ON S3",
+    production_link: "https://purple-minutes-styling.s3.us-east-2.amazonaws.com/Video/Copy+of+IMG_0153.mp4",
     production_description:
       "Music video by Curtis McMurtry for the song “You Need Me to Betray”. Styling, and sets props by Purple Minutes",
   },
