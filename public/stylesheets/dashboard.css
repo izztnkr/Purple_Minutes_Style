@@ -35,6 +35,10 @@ a {
     color: mediumpurple;
 }
 
+#newProject {
+    pointer-events: none;
+}
+
 .header {
     background-color: lightcyan;
 }
@@ -67,7 +71,6 @@ button:focus {
     /* border: 6px solid black; */
     text-align: left;
     justify-content: end;
-    padding-left: 27%;
 }
 
 .main-body {
