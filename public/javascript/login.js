@@ -14,6 +14,7 @@ async function loginEvent(event){
                 password
             }),
             headers: { 'Content-Type' : 'application/json'}
+
         });
 
         if(response.ok){

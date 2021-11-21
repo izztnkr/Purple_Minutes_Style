@@ -26,7 +26,7 @@ const productiondata = [
     production_type: "Film",
     production_dates: "September 19, 2020",
     production_link: "TBD",
-    production_description: "",
+    production_description: "Character styling done by Purple Minutes Style.",
   },
   {
     id: 4,

@@ -27,7 +27,7 @@ router.get("/film", (req, res) => {
         res.status(404).json({ message: "No production found." });
         return;
       }
-
+      
       const production = dbProductionData.get({ plain: true });
       console.log(production);
       res.render("dash_film", {
@@ -35,6 +35,7 @@ router.get("/film", (req, res) => {
         production,
         // loggedIn: req.session.loggedIn,
       });
+    
     })
     .catch((err) => {
       console.log(err);

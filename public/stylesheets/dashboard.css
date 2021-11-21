@@ -3,26 +3,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: rgb(234, 241, 241);
     color: mediumpurple;
-    
 }
-
-nav img {
-    border-radius: 50%;
-    max-width: 50%;
-    
-    
+body {
+background: rgb(234, 241, 241);
 }
 
 /* Navigation */
+.logo img {
+    border-radius: 50%;
+    max-width: 50%;
+}
+.logo {
+    background-color: lightcyan;
+}
 nav {
     font-size: 30px;
     padding: 10px;
+    
 }
 
 nav a {
     padding-left: 40px;
+    background-color: lightcyan;
 
     
 }
@@ -30,6 +33,14 @@ nav a {
 a {
     text-decoration: none;
     color: mediumpurple;
+}
+
+#newProject {
+    pointer-events: none;
+}
+
+.header {
+    background-color: lightcyan;
 }
 
 a:hover {
@@ -40,11 +51,13 @@ a:hover {
 /* Logout Button */
 .logout {
     text-align: right;
+    background-color: lightcyan;
 }
 
 button {
     background-color: mediumpurple;
     color: black;
+    width: 50%;
     
 }
 
@@ -58,15 +71,40 @@ button:focus {
     /* border: 6px solid black; */
     text-align: left;
     justify-content: end;
-    padding-left: 500px;
 }
 
-section {
-    padding-top: 10%;
+.main-body {
+    padding-top: 1%;
 }
 
 .description {
     padding-left: 5%;
+    padding-top: 10px;
+
+    padding-right: 15%;
+}
+
+.description div {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* 5 realted images */
+
+.secondary-body {
+    padding: 4% 5% 1% 10%;
+}
+
+.image {
+    width: 13%;
+    height: auto;
+}
+
+
+
+/* Footer */
+footer {
+    font-size: 30px;
+}
+
+/* Possible future Media Queries */
