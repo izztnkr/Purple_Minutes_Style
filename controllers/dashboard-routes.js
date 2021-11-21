@@ -6,7 +6,7 @@ router.get("/", (req, res) => {
 });
 
 // get all content for the dashboard
-router.get("/dashboard/film", (req, res) => {
+router.get("/dashboard/film/", (req, res) => {
   Production.findOne({
     where: {
       production_type: req.params.id, //LEFT OFF HERE, MAYBE DIFF WHERE: TITLE
