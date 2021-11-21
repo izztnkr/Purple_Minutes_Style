@@ -1,17 +1,21 @@
-  
-   <section>
-        <div class=" d-flex col-6-sm justify-content-end">
-            <img class="main-image" src="https://purple-minutes-styling.s3.us-east-2.amazonaws.com/Film/Film+Production/LooseEnds_MainImage.JPG">
+    {{!-- main image plus descriptions --}}
+    <section class="main-body d-flex flex-row align-items-center" style="padding-left: 27%;">
+        <div class="main-image d-flex col-6-sm justify-content-end">
+            <img src="https://purple-minutes-styling.s3.us-east-2.amazonaws.com/Film/Film+Production/LooseEnds_MainImage.JPG">
         </div>
 
         {{!-- This is how to call in a handlebars partial --}}
-    {{>productioncard }}
+        {{>productioncard }}
 
-  
-        <div class="images d-flex flex-row justify-content-between">
-            <img class="col-sm-2" src="https://purple-minutes-styling.s3.us-east-2.amazonaws.com/Film/Film+Production/LooseEnds_IMG_3968.jpg"></img>
-            <img class="col-sm-2" src="https://purple-minutes-styling.s3.us-east-2.amazonaws.com/Film/Film+Production/LooseEnds_IMG_3903.jpg"></img>
-            <img class="col-sm-2" src="https://purple-minutes-styling.s3.us-east-2.amazonaws.com/Film/Film+Production/LooseEnds_IMG_0018.jpg"></img>
-            <img class="col-sm-2" src="https://purple-minutes-styling.s3.us-east-2.amazonaws.com/Film/Film+Production/LooseEnds_IMG_4006.jpg"></img>
-        </div>
     </section>
+
+    {{!-- Related images --}}
+    <div class="secondary-body">
+        <div class="images d-flex flex-row justify-content-between">
+            <img class="image" src="https://purple-minutes-styling.s3.us-east-2.amazonaws.com/Film/Film+Production/LooseEnds_IMG_3968.jpg"></img>
+            <img class="image" src="https://purple-minutes-styling.s3.us-east-2.amazonaws.com/Film/Film+Production/LooseEnds_IMG_3903.jpg"></img>
+            <img class="image" src="https://purple-minutes-styling.s3.us-east-2.amazonaws.com/Film/Film+Production/LooseEnds_IMG_0018.jpg"></img>
+            <img class="image" src="https://purple-minutes-styling.s3.us-east-2.amazonaws.com/Film/Film+Production/LooseEnds_IMG_4006.jpg"></img>
+        </div>
+    </div>
+    

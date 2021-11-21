@@ -1,22 +1,25 @@
    
     <!--This is where the database info goes based on production type. -->
-    <section class="d-flex flex-row">
+
+
+    {{!-- I don't think we need the section element in this partial, commented out for now ~ Dakota --}}
+    {{!-- <section class="main-body d-flex flex-row align-items-center"> --}}
        
-        <div class=" description d-flex flex-column col-6-sm">
-            <h2>
-                {{production.production_name}}
-            </h2>
-            <div>
-                Production Link: <a href = "{{production.production_link}}" target= "_blank">Click Here!</a> 
-            </div>
-            <div>
-                Production Type: {{production.production_type}} 
-            </div>
-            <div>
-                Date(s): {{production.production_dates}} 
-            </div>
-            <div>
-                Description: {{production.production_description}} 
-            </div>
+    <div class="description d-flex col-3-sm flex-column">
+        <h3>
+            {{production.production_name}}
+        </h3>
+        <div>
+            <h5>Production Link:</h5> <a href = "{{production.production_link}}" target= "_blank">Click Here!</a> 
         </div>
-    </section> 
+        <div>
+            <h5>Production Type:</h5> {{production.production_type}} 
+        </div>
+        <div>
+            <h5>Date(s):</h5> {{production.production_dates}} 
+        </div>
+        <div>
+            <h5>Description:</h5> {{production.production_description}} 
+        </div>
+    </div>
+    {{!-- </section>  --}}

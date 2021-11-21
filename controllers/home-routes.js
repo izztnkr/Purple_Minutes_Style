@@ -28,6 +28,17 @@ router.get('/login', (req,res) => {
     res.render('login');
 });
 
+router.post('/logout', (req, res) => {
+    if (req.session.loggedIn) {
+      req.session.destroy(() => {
+        res.status(204).end();
+      });
+    }
+    else {
+      res.status(404).end();
+    }
+});
+
 // router.get('*', (req,res) => {
 //     res.status(404).send('That place does not exist☹️!');
 // });
