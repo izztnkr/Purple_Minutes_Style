@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> --}}
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- bootstrap framework stylesheet link -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="/public/stylesheets/dashboard.css">
@@ -11,9 +11,8 @@
         <title>Purple Minute Style Dashboard</title>
     </head> 
     <body>
-        
         <!-- logo image -->
-        <nav class="d-flex fixed-top flex-row justify-content-between align-items-center">
+        <nav class="header d-flex flex-row justify-content-between align-items-center">
             
             <div class="logo col-sm-3">
                 
@@ -22,7 +21,7 @@
             </div>
     
             <!-- navigation links -->
-            <div class="nav d-flex flex-row col-sm-6">
+            <div class="nav d-flex flex-row col-sm-6 justify-content-center">
             
                 <a href="/home">Home</a>
                     
@@ -38,44 +37,44 @@
                 
             </div> 
             <!-- Logout Button -->
-            <div class="logout col-sm-3">
-                <button>Log out</button>
+            <div class="logout col-sm-3 align-items-center">
+                <button class="btn btn-rounded">Logout</button>
             </div>
         </nav>
     
         <!-- main image plus descriptions -->
-        <section class="d-flex flex-row">
-            <div class=" d-flex col-6-sm justify-content-end">
-                <img class="main-image" src="https://purple-minutes-styling.s3.us-east-2.amazonaws.com/Film/Film+Production/LooseEnds_MainImage.JPG">
+        <section class="main-body d-flex flex-row align-items-center">
+            <div class=" main-image d-flex col-6-sm justify-content-end">
+                <img src="https://purple-minutes-styling.s3.us-east-2.amazonaws.com/Film/Film+Production/LooseEnds_MainImage.JPG">
             </div>
-            <div class="description d-flex flex-column col-6-sm">
-                <h2>
+            <div class="description d-flex col-3-sm flex-column">
+                <h3>
                  Title of Program  
-                </h2>
+                </h3>
                 <div>
-                    Production Link:
+                    <h5>Production Link:</h5> this is a link!
                 </div>
                 <div>
-                    Production Type:
+                    <h5>Production Type:</h5> Film
                 </div>
                 <div>
-                    Dates:
+                    <h5>Dates:</h5> 123456789123456789
                 </div>
                 <div>
-                    Description:
+                    <h5>Description:</h5> Et eiusmod fugiat cupidatat elit adipisicing ullamco dolor. Deserunt ut excepteur irure exercitation fugiat veniam dolore ullamco. Consequat nisi deserunt ipsum reprehenderit proident quis amet sunt.Velit ut deserunt in excepteur eu dolore in labore cillum. Proident occaecat pariatur cupidatat aliqua consectetur. Ex proident sint quis ea. Reprehenderit cupidatat consectetur commodo duis velit. Elit esse adipisicing aute fugiat deserunt ullamco velit. Duis cupidatat et occaecat ullamco consectetur qui exercitation nisi et id pariatur do sint.
                 </div>
             </div>
         </section> 
     
         <!-- Related images -->
-        <section>
+        <div class="secondary-body">
             <div class="images d-flex flex-row justify-content-between">
-                <img class="col-sm-2" src="https://purple-minutes-styling.s3.us-east-2.amazonaws.com/Film/Film+Production/LooseEnds_IMG_3968.jpg"></img>
-                <img class="col-sm-2" src="https://purple-minutes-styling.s3.us-east-2.amazonaws.com/Film/Film+Production/LooseEnds_IMG_3903.jpg"></img>
-                <img class="col-sm-2" src="https://purple-minutes-styling.s3.us-east-2.amazonaws.com/Film/Film+Production/LooseEnds_IMG_0018.jpg"></img>
-                <img class="col-sm-2" src="https://purple-minutes-styling.s3.us-east-2.amazonaws.com/Film/Film+Production/LooseEnds_IMG_4006.jpg"></img>
+                <img class="image" src="https://purple-minutes-styling.s3.us-east-2.amazonaws.com/Film/Film+Production/LooseEnds_IMG_3968.jpg"></img>
+                <img class="image" src="https://purple-minutes-styling.s3.us-east-2.amazonaws.com/Film/Film+Production/LooseEnds_IMG_3903.jpg"></img>
+                <img class="image" src="https://purple-minutes-styling.s3.us-east-2.amazonaws.com/Film/Film+Production/LooseEnds_IMG_0018.jpg"></img>
+                <img class="image" src="https://purple-minutes-styling.s3.us-east-2.amazonaws.com/Film/Film+Production/LooseEnds_IMG_4006.jpg"></img>
             </div>
-        </section>
+        </div>
         
         <!-- main image/description section -->
     <!-- bootstrap framework jquery links -->
@@ -83,4 +82,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     </body>
+    <footer class="d-flex justify-content-center" style="background-color: #e6f4fd">
+        Built with love and care for Purple Minutes Style
+    </footer>
     </html>

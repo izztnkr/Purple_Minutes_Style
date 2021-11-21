@@ -1,14 +1,21 @@
- <div class=" d-flex col-6-sm justify-content-end">
-            <img class="main-image" src="https://purple-minutes-styling.s3.us-east-2.amazonaws.com/Editorial/Editorial+Production/Editorial_MainImage_2784.PNG">
+    {{!-- main image plus descriptions --}}
+    <section class="main-body d-flex flex-row align-items-center">   
+        <div class="main-image d-flex col-6-sm justify-content-end">
+            <img src="https://purple-minutes-styling.s3.us-east-2.amazonaws.com/Editorial/Editorial+Production/Editorial_MainImage_2784.PNG">
         </div>
 
-          {{>productioncard }}
-    <section>
-        <div class="images d-flex flex-row justify-content-between">
-            <img class="col-sm-2" src="https://purple-minutes-styling.s3.us-east-2.amazonaws.com/Editorial/Editorial+Production/Editorial_IMG_2629.jpg"></img>
-            <img class="col-sm-2" src="https://purple-minutes-styling.s3.us-east-2.amazonaws.com/Editorial/Editorial+Production/Editorial_IMG_2786.PNG"></img>
-            <img class="col-sm-2" src="https://purple-minutes-styling.s3.us-east-2.amazonaws.com/Editorial/Editorial+Production/Editorial_IMG_2787.PNG"></img>
-            <img class="col-sm-2" src="https://purple-minutes-styling.s3.us-east-2.amazonaws.com/Editorial/Editorial+Production/Editorial_IMG_4138.jpg"></img>
-        </div>
+        {{>productioncard }}
+        
     </section>
+
+    {{!-- Related images --}}
+    <div class="secondary-body">
+        <div class="images d-flex flex-row justify-content-between">
+            <img class="image" src="https://purple-minutes-styling.s3.us-east-2.amazonaws.com/Editorial/Editorial+Production/Editorial_IMG_2629.jpg"></img>
+            <img class="image" src="https://purple-minutes-styling.s3.us-east-2.amazonaws.com/Editorial/Editorial+Production/Editorial_IMG_2786.PNG"></img>
+            <img class="image" src="https://purple-minutes-styling.s3.us-east-2.amazonaws.com/Editorial/Editorial+Production/Editorial_IMG_2787.PNG"></img>
+            <img class="image" src="https://purple-minutes-styling.s3.us-east-2.amazonaws.com/Editorial/Editorial+Production/Editorial_IMG_4138.jpg"></img>
+        </div>
+    </div>
+    
     
