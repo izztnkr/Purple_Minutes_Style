@@ -10,7 +10,7 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 //import helpers.js first and then pass it to expbs.create()
-const helpers = require("./utils/helpers");
+//const helpers = require("./utils/helpers");
 
 // add handlebars
 const exphbs = require("express-handlebars");
