@@ -1,6 +1,6 @@
-# Project2_Purple_Minutes_Style
+<h1 align ="center"> Project2_Purple_Minutes_Style </h1>
 
-<h1 align="center">Model-View-Controller (MVC)  built with </h1>
+<h2 align="center">Model-View-Controller (MVC)  built with </h2>
 <p align="center">
     <img src="https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white"/>  &nbsp;&nbsp;
     <img src="https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white"> &nbsp;&nbsp;
@@ -28,7 +28,7 @@
 
   ## Description
   
-This project is in part to fulfill the technical requirement of the UT Coding Bootcamp to build a full stack application following the Model-View-Controller architecture. Additionally it will fulfill the needs of client Purple Minutes Style, as a database and space to upload, document, sort and keep track of their styling work per production.  Productions being projects in the realm of styling characters and clients for short films, tv/web episodes, editorial shoots, and theater. Where the data needing housing are links to published commercials, short films, larger films, photos of behind the scenes, images of wardrobe design plans, and raw film frames of the overall production with their product (the wardrobe styling of characters and clients) being showcased. 
+This project is, in part, to fulfill the technical requirement of the UT Coding Bootcamp to build a full stack application following the Model-View-Controller architecture. Additionally, it will fulfill the needs of our client, Purple Minutes Style, by providing a database and space to upload, document, sort and keep track of their styling work per production.  Productions refer to projects in the realm of styling characters and clients for short films, tv/web episodes, editorial shoots, and theater. Where the data needing housing are links to published commercials, short films, larger films, photos of behind the scenes, images of wardrobe design plans, and raw film frames of the overall production with their product (the wardrobe styling of characters and clients) being showcased. 
 
   ## Demo
   

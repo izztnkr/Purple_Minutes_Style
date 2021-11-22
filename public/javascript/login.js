@@ -20,7 +20,7 @@ async function loginEvent(event){
         if(response.ok){
             document.location.replace('/dashboard/');
         }else{
-            alert('Something is not working! :( ');
+            alert(response.statusText);
         }
     }
 }
