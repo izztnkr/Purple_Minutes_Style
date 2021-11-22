@@ -30,10 +30,10 @@
   
 This project is, in part, to fulfill the technical requirement of the UT Coding Bootcamp to build a full stack application following the Model-View-Controller architecture. Additionally, it will fulfill the needs of our client, Purple Minutes Style, by providing a database and space to upload, document, sort and keep track of their styling work per production.  Productions refer to projects in the realm of styling characters and clients for short films, tv/web episodes, editorial shoots, and theater. Where the data needing housing are links to published commercials, short films, larger films, photos of behind the scenes, images of wardrobe design plans, and raw film frames of the overall production with their product (the wardrobe styling of characters and clients) being showcased. 
 
+  ## Demo
   
- ## Preview
   
-![image](https://media0.giphy.com/media/lNY0a9aJgFcCaDn1nw/giphy.gif?cid=ecf05e47psgv7yleo14azmxgq6al2ofi7e84ze6604v6z3qo&rid=giphy.gif&ct=g)
+  ![Purple-Minutes-Style-Demo (1)](https://user-images.githubusercontent.com/82625726/142786146-b6f3fa69-64bd-4336-94c9-97b401beb590.gif)
 
 
    ## Technical_Criteria 
@@ -102,11 +102,6 @@ This project is, in part, to fulfill the technical requirement of the UT Coding 
   [heroku](https://purpleminutesstyle.herokuapp.com/)
  
 
-  ## Demo
-  
-  
-  ![Purple-Minutes-Style-Demo (1)](https://user-images.githubusercontent.com/82625726/142786146-b6f3fa69-64bd-4336-94c9-97b401beb590.gif)
-
 
   ## Contributions
 
@@ -116,11 +111,11 @@ This project is, in part, to fulfill the technical requirement of the UT Coding 
 
   :octocat: [Ben Kaan](https://www.github.com/benkaan001) user model, log in pages
  
-  :octocat: [Dakota Donaldson](https://github.com/Dakota3214) handlebars templates and styling
+  :octocat: [Dakota Donaldson](https://github.com/Dakota3214) handlebars templates and styling, merge conflicts to main, 
 
-  :octocat: [Izzy Ramirez](https://github.com/izztnkr) back-end & front-end routes, client interaction, project management
+  :octocat: [Izzy Ramirez](https://github.com/izztnkr) back-end & front-end routes, client interaction, project management, merge conflicts to main
 
-  :octocat: [Eduardo Ramirez](https://github.com/EduardoRam7) axios implementation
+  :octocat: [Eduardo Ramirez](https://github.com/EduardoRam7) axios implementation, demo gif
   
   
   Contributions are welcome!

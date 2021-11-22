@@ -1,16 +1,16 @@
-const seedUsers = require('./user-seeds');
-const seedProductions = require('./production-seeds');
+const seedUsers = require("./user-seeds");
+const seedProductions = require("./production-seeds");
 
-const sequelize = require('../config/connection');
+const sequelize = require("../config/connection");
 
 const seedAll = async () => {
   await sequelize.sync({ force: true });
-  console.log('--------------');
+  console.log("--------------");
   await seedUsers();
-  console.log('--------------');
+  console.log("--------------");
 
   await seedProductions();
-  console.log('--------------');
+  console.log("--------------");
 
   process.exit(0);
 };
