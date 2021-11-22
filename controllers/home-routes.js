@@ -39,8 +39,6 @@ router.post('/logout', (req, res) => {
     }
 });
 
-// router.get('*', (req,res) => {
-//     res.status(404).send('That place does not exist☹️!');
-// });
+
 
 module.exports=router;

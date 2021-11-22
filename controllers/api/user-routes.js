@@ -14,10 +14,6 @@ router.get('/', (req,res) => {
 
 });
 
-// get a single user by id
-router.get('/', (req,res) => {
-
-});
 
 // create a new user
 router.post('/', (req,res) => {
@@ -85,9 +81,5 @@ router.post('/logout', (req,res) => {
 
 });
 
-// delete a user
-router.delete('/:id', (req,res) => {
-
-});
 
 module.exports = router;
