@@ -22,6 +22,7 @@
   * [Installation](#installation)
   * [Usage](#usage)
   * [Tests](#tests)
+  * [Demo](#demo)
   * [Contributions](#contributions)
   * [License](#license)
 
@@ -101,7 +102,11 @@ This project is in part to fulfill the technical requirement of the UT Coding Bo
   [heroku](https://purpleminutesstyle.herokuapp.com/)
  
 
+  ## Demo
   
+  
+  ![Purple-Minutes-Style-Demo (1)](https://user-images.githubusercontent.com/82625726/142786146-b6f3fa69-64bd-4336-94c9-97b401beb590.gif)
+
 
   ## Contributions
 
